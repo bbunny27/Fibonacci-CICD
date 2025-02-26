@@ -2,9 +2,9 @@ version : 0.0
 os: linux
 files :
 - source : /
-destination : /home/ ubuntu / fibonacci
+destination : /home/ubuntu/fibonacci
 hooks :
 ApplicationStart :
-- location : scripts / start .sh
+- location : scripts/start.sh
 timeout : 30
 runas : ubuntu
